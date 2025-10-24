@@ -4,11 +4,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
-    <Navbar />
-    <Home />
-    <Footer />
-    </>
+    <Home/>
   );
 }
 
