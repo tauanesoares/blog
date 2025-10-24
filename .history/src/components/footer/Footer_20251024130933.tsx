@@ -1,4 +1,4 @@
-import { InstagramLogoIcon, GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react"
+import { FacebookLogoIcon, InstagramLogoIcon, GithubLogoIcon } from "@phosphor-icons/react"
 
 
 function Footer() {
@@ -21,9 +21,7 @@ function Footer() {
                             <InstagramLogoIcon size={48} weight='bold' />
                          </a>
                         
-                        <a href="">
-                            <LinkedinLogoIcon size={48} weight='bold' />
-                         </a>
+                        <FacebookLogoIcon size={48} weight='bold' />
                     </div>
                 </div>
             </div>
