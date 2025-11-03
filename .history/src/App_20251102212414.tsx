@@ -8,7 +8,6 @@ import { AuthProvider } from "./contexts/AuthContext";
 import ListaTemas from "./components/tema/listatemas/ListaTemas";
 import FormTema from "./components/tema/formtema/FormTema";
 import DeletarTema from "./components/tema/deletartema/DeletarTema";
-import ListaPostagens from "./components/postagem/listapostagens/ListaPostagens";
 
 function App() {
   return (
