@@ -16,7 +16,7 @@ function CardPostagem({ postagem }: CardPostagensProps) {
                         src={
                             postagem.usuario?.foto ||
                             'https://ik.imagekit.io/2zvbvzaqt/usuario.png'
-                        }
+                    }
                         className='h-12 rounded-full'
                         alt={postagem.usuario?.nome} />
                     <h3 className='text-lg font-bold text-center uppercase'>
@@ -34,7 +34,7 @@ function CardPostagem({ postagem }: CardPostagensProps) {
                 </div>
             </div>
             <div className="flex">
-                <Link to={`/editarpostagem/${postagem.id}`} 
+                <Link to='' 
                     className='w-full text-white bg-indigo-400 
                     hover:bg-indigo-800 flex items-center justify-center py-2'>
                     <button>Editar</button>
